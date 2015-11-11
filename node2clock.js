@@ -10,11 +10,11 @@
  */
 "use strict";
 var spark   = require('spark'),
-    events	= require('events'),
     util    = require('util'),
+    events	= require('events'),
+    _       = require('lodash')
     sparkle = require('rapidus-sparkle'),
-    sp      = require('serialport'),
-    _       = require('lodash');
+    sp      = require('serialport');
 
 /**
  * Setup event processing
