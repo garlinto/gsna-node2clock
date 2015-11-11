@@ -1,0 +1,24 @@
+{
+  "name": "node2clock",
+  "version": "1.0.0",
+  "description": "Enable communication between the rpi and teensy to control my clock project.",
+  "main": "node2clock.js",
+  "dependencies": {
+    "spark": "^latest",
+    "rapidus-sparkle": "latest",
+    "lodash": "latest",
+    "serialport": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "n2clk" : "./node2clock.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/garlint/gsna-node2clock.git"
+  },
+  "author": "garlinto",
+  "license": "ISC"
+}
